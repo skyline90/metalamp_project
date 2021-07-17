@@ -45,3 +45,62 @@ color: #1F2041;
     background: #1F2041;
 }
 
+.color__name_Dark-Shade-100 {
+    width: 171px;
+    top: 152px;
+}
+
+.color__box_Dark-Shade-75 {
+    top: 235px;
+    background: rgba(31, 32, 65, 0.75);
+}
+
+.color__name_Dark-Shade-75 {
+    width: 161px;
+    top: 242px;
+}
+.color__box_Dark-Shade-50 {
+    top: 324.56px;
+    background: rgba(31, 32, 65, 0.5);
+}
+
+.color__name_Dark-Shade-50 {
+    width: 162px;
+    top: 332px;
+}
+.color__box_Dark-Shade-25 {
+    top: 415px;
+    background: rgba(31, 32, 65, 0.25);
+}
+
+.color__name_Dark-Shade-25 {
+    width: 161px;
+    top: 422px;
+}
+.color__box_Dark-Shade-5 {
+    top: 505px;
+    background: rgba(31, 32, 65, 0.05);
+}
+
+.color__name_Dark-Shade-5 {
+    width: 149px;
+    top: 512px;
+}
+.color__box_purple {
+    top: 595px;
+    background: #BC9CFF;
+}
+
+.color__name_purple {
+    width: 91px;
+    top: 602px;
+}
+.color__box_green {
+    top: 685px;
+    background: #6FCF97;
+}
+
+.color__name_green {
+    width: 86px;
+    top: 692px;
+}
