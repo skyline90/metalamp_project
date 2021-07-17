@@ -104,3 +104,79 @@ color: #1F2041;
     width: 86px;
     top: 692px;
 }
+
+.font__teg_h1 {
+    position: absolute;
+    width: 29px;
+    height: 30px;
+    left: 854px;
+    top: 145px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    text-align: right;
+    
+    /* Dark 25% */
+    
+    color: rgba(31, 32, 65, 0.25);
+}
+.font__text_h1 {
+    position: absolute;
+    width: 369px;
+    height: 59px;
+    left: 913px;
+    top: 145px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* Dark 100% */
+    
+    color: #1F2041;
+}
+.font__teg_h2 {
+position: absolute;
+width: 27px;
+height: 24px;
+left: 856px;
+top: 255px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: right;
+
+/* Dark 25% */
+
+color: rgba(31, 32, 65, 0.25);
+}
+.font__text_h2 {
+/* Next one is the item title inside widgets */
+
+position: absolute;
+width: 312px;
+height: 47px;
+left: 913px;
+top: 255px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 23px;
+
+/* Dark 100% */
+color: #1F2041;
+}
