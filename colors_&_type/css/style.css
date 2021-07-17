@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.colors_type {
+position: relative;
+width: 1440px;
+height: 900px;
+background: #FFFFFF;
+}
+.group_13 {
+position: absolute;
+width: 48px;
+height: 48px;
+left: 30px;
+top: 30px;
+}
