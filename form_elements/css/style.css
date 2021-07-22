@@ -2,6 +2,181 @@
     padding: 0%;
     margin: 0%;
 }
-.form_elements {
-    
+@font-face {
+font-family: 'Montserrat';
+src: url('../fonts/Montserrat-Regular.eot');
+src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+font-weight: normal;
+font-style: normal;
 }
+
+.form_mainlabel {
+position: absolute;
+height: 15px;
+left: 141px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+color: #1F2041;
+}
+.form_hiddenlabel {
+position: absolute;
+height: 15px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+text-transform: uppercase;
+color: rgba(31, 32, 65, 0.5);
+}
+
+input {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+background: #FFFFFF;
+
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.form__mainlabel_email {
+width: 72px;
+top: 143px;
+}
+.form__mainlabel_text {
+width: 72px;
+top: 227.44px;
+}
+
+input[type=email] {
+top: 163px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+}
+
+.text {
+top: 247.44px;
+border: 1px solid rgba(31, 32, 65, 0.5);
+padding: 12px 149px 8px 15px;
+}
+::placeholder {
+
+width: 40px;
+height: 18px;
+padding: 13px 265px 13px 15px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: rgba(31, 32, 65, 0.25);
+}
+
+.form__hiddenlabel_email {
+width: 57px;
+left: 403.74px;
+top: 140px;
+}
+.form__hiddenlabel_text {
+width: 98px;
+left: 364.74px;
+top: 227px;    
+}
+
+select {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+top: 331.44px;
+background: #FFFFFF;
+padding: 12px 150px 8px 15px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+option {
+position: absolute;
+width: 112px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: rgba(31, 32, 65, 0.75);
+}
+.form__mainlabel_dropdown {
+    width: 81px;
+    top: 311.44px;
+}
+
+.masked {
+position: absolute;
+width: 320px;
+height: 44px;
+left: 141px;
+top: 418px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+}
+
+.form__mainlabel_masked {
+    position: absolute;
+    width: 130px;
+    height: 15px;
+    left: 141px;
+    top: 398px;
+}
+
+input[type=date] {
+width: 150px;
+top: 522.44px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+border: 1px solid rgba(31, 32, 65, 0.25);
+padding: 11.56px 32px 8.44px 15px;
+}
+.form__mainlabel_datedrop {
+    width: 150px;
+    top: 502px;
+}
+
+.datedrop2 {
+position: absolute;
+width: 150px;
+height: 44px;
+left: 311px;
+top: 522.44px;
+}
+
+.form__mainlabel_datedrop2 {
+width: 150px;
+height: 15px;
+left: 311px;
+top: 502px;
+}
+
+::-webkit-calendar-picker-indicator {
+    color: transparent;
+    opacity: 1;
+    background: url(/form_elements/img/expand_more.svg) no-repeat center;
+    background-size: contain;
+    position: relative;
+    left: 30px;
+  }
