@@ -141,7 +141,7 @@ border: 1px solid rgba(31, 32, 65, 0.25);
 }
 
 input[type=date] {
-width: 150px;
+    width: 150px;
 top: 522.44px;
 
 font-family: Montserrat;
@@ -152,6 +152,7 @@ line-height: 18px;
 border: 1px solid rgba(31, 32, 65, 0.25);
 padding: 11.56px 32px 8.44px 15px;
 }
+
 .form__mainlabel_datedrop {
     width: 150px;
     top: 502px;
@@ -180,3 +181,92 @@ top: 502px;
     position: relative;
     left: 30px;
   }
+
+.form__mainlabel_datedrop3 {
+width: 197px;
+top: 607px;
+}
+
+#datedrop3 {
+position: absolute;
+width: 266px;
+height: 44px;
+left: 141px;
+top: 627px;
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.form__emailsubs {
+width: 170px;
+top: 712px;
+}
+
+#emailsubs {
+position: absolute;
+width: 267px;
+height: 44px;
+left: 140px;
+top: 732px;
+}
+
+input[type=submit] {
+background: url(/form_elements/img/arrow_forward.svg) no-repeat center;
+position: absolute;
+width: 44px;
+height: 44px;
+left: 363px;
+top: 732px;
+font-size: 0px;
+border: 0px;
+outline: 0 !important;
+}
+
+.form__mainlabel_dropdownfurniture {
+position: absolute;
+width: 81px;
+height: 15px;
+left: 140px;
+top: 876px;
+}
+
+.form__hiddenlabel_furniture {
+position: absolute;
+width: 57px;
+height: 15px;
+left: 349px;
+top: 876px;
+}
+.dropdownfurniture {
+    position: absolute;
+width: 266px;
+height: 44px;
+left: 140px;
+top: 896px;
+
+background: #FFFFFF;
+border: 1px solid rgba(31, 32, 65, 0.25);
+box-sizing: border-box;
+border-radius: 2px;
+}
+.dropdownfurniture__option {
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    left: 155px;
+    top: 908px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    
+    /* Dark 75% */
+    
+    color: rgba(31, 32, 65, 0.75);
+}
